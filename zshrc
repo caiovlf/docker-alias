@@ -3,7 +3,7 @@
 # ------------------------------------
 
 # Get latest container ID
-alias dl="docker ps -l -q"
+alias dpsi="docker ps -l -q"
 
 # Get container process
 alias dps="docker ps"
