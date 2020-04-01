@@ -29,6 +29,12 @@ alias dki="docker run -i -t -P"
 # Execute interactive container, e.g., $dex base /bin/bash
 alias dex="docker exec -i -t"
 
+# Docker compose up
+alias dcu="docker-compose up -d"
+
+# Docker compose down
+alias dcd="docker-compose down"
+
 # Stop all containers
 dstop() { docker stop $(docker ps -a -q); }
 
