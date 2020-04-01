@@ -15,7 +15,7 @@ alias dpa="docker ps -a"
 alias di="docker images"
 
 #Get ContainerLogger 
-alias dl="docker log =f"
+alias dl="docker log -f"
 
 # Get container IP
 alias dip="docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
